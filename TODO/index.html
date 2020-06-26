@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <div id="name">
+       <span>TO DO LIST</span> 
+    </div>
+    <div id="header">
+        <div id=new_tasks>
+            <input id="task_input" type="text" placeholder="Write a new task"></input>
+            <div id="add_icon"><img src="images/add2.png"></div>   
+        </div>    
+        <div class="select">
+            <select name="slct" id="slct">
+              <option value="1" id="one">ALL</option>
+              <option value="2">Active</option>
+              <option value="3">Completed</option>
+            </select>
+        </div>
+    </div>
+    
+   <div id="main-tasks">
+   </div>
+    <script type="text/javascript" src="script/main.js"></script>
+</body>
+</html>
